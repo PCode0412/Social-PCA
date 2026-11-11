@@ -7,7 +7,19 @@ import {
   SNAPSHOT_ALPHA_GRID
 } from './data/initialData';
 
-const BASE_URL = 'http://127.0.0.1:8000';
+// Dynamic Base URL:
+// Resolves to injected service binding (API_URL / VITE_API_URL) or relative '' for Vercel/Vite proxy routing
+const getBaseUrl = () => {
+  if (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) {
+    return import.meta.env.VITE_API_URL;
+  }
+  if (typeof process !== 'undefined' && process.env?.API_URL) {
+    return process.env.API_URL;
+  }
+  return '';
+};
+
+const BASE_URL = getBaseUrl();
 
 export async function fetchDatasetAudit() {
   try {
