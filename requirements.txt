@@ -1,0 +1,15 @@
+# Core Scientific and Data Manipulation
+numpy>=1.24.0
+pandas>=2.0.0
+
+# API and Web Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.5.0
+
+# Database Persistence
+# Built-in sqlite3 used for ACID relational persistence
+
+# Optional / Alternative ML engines
+# scikit-learn>=1.3.0
+# scipy>=1.11.0

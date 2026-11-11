@@ -1,0 +1,30 @@
+{
+  "dataset": {
+    "dataset_title": "Communities and Crime",
+    "repository": "UCI Machine Learning Repository",
+    "canonical_doi": "10.24432/C53W3X",
+    "canonical_url": "https://archive.ics.uci.edu/dataset/183/communities%2Band%2Bcrime",
+    "creator": "Michael Redmond, La Salle University",
+    "date_donated": "2009-07-13",
+    "data_sources": "1990 US Census, 1990 LEMAS survey, 1995 FBI UCR",
+    "raw_rows": 1994,
+    "raw_attributes": 128,
+    "missing_token": "?"
+  },
+  "preprocessing": {
+    "total_original_features": 128,
+    "eligible_features": 89,
+    "retained_features": 89,
+    "dropped_for_missingness": [],
+    "imputation_strategy": "median",
+    "imputed_values_count": 1,
+    "sample_count": 1994
+  },
+  "pca": {
+    "retained_pcs": 11,
+    "variance_explained_pct": 81.14
+  },
+  "models_evaluated": 4,
+  "k": 4,
+  "hspc_alpha": 0.5
+}

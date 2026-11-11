@@ -1,0 +1,5 @@
+method,k,alpha,silhouette,cophenetic_r,stability,min_cluster_size,max_cluster_size,cluster_sizes,runtime_ms,pc_count,var_retained
+PCA + Ward,4,0.5,0.1909,0.4324,0.0011,107,880,"{0: 857, 1: 880, 2: 150, 3: 107}",231.33,11,81.14
+PCA + Average,4,0.5,0.3284,0.7529,0.0011,1,1856,"{0: 1856, 1: 124, 2: 13, 3: 1}",207.16,11,81.14
+PCA + Complete,4,0.5,0.1559,0.5364,0.0011,38,983,"{0: 698, 1: 983, 2: 275, 3: 38}",211.68,11,81.14
+HSPC (Hybrid Proposed),4,0.5,0.2055,0.556,0.0011,34,1329,"{0: 1329, 1: 532, 2: 99, 3: 34}",447.48,11,81.14

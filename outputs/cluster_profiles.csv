@@ -1,0 +1,17 @@
+Method,Cluster_ID,Size,Percentage,Persona,Demographic_Score,Economic_Score,Housing_Score,Social_Score
+PCA + Ward,0,857,42.98,Mid-Tier Balanced Community (Profile 1),-0.059,0.103,0.153,-0.026
+PCA + Ward,1,880,44.13,Mid-Tier Balanced Community (Profile 2),-0.116,-0.087,-0.189,-0.12
+PCA + Ward,2,150,7.52,High-Density Urban / Young Demographic Mix,0.649,0.037,0.39,0.91
+PCA + Ward,3,107,5.37,High-Density Urban / Young Demographic Mix,0.516,-0.163,-0.218,-0.08
+PCA + Average,0,1856,93.08,Mid-Tier Balanced Community (Profile 1),-0.044,-0.003,-0.03,-0.075
+PCA + Average,1,124,6.22,High-Density Urban / Young Demographic Mix,0.482,0.015,0.329,1.022
+PCA + Average,2,13,0.65,High-Density Urban / Young Demographic Mix,1.684,0.247,1.057,0.864
+PCA + Average,3,1,0.05,Moderate Income / High Housing Cost Burden,0.286,-0.204,0.488,0.344
+PCA + Complete,0,698,35.01,Mid-Tier Balanced Community (Profile 1),-0.136,0.129,0.089,-0.149
+PCA + Complete,1,983,49.3,Mid-Tier Balanced Community (Profile 2),-0.064,-0.077,-0.1,-0.033
+PCA + Complete,2,275,13.79,Stable High-Tenure / Family-Centric Community,0.391,-0.073,0.029,0.406
+PCA + Complete,3,38,1.91,High-Density Urban / Young Demographic Mix,1.32,0.166,0.735,0.664
+HSPC (Hybrid Proposed),0,1329,66.65,Mid-Tier Balanced Community (Profile 1),-0.066,-0.099,-0.176,-0.111
+HSPC (Hybrid Proposed),1,532,26.68,Mid-Tier Balanced Community (Profile 2),-0.015,0.232,0.332,0.047
+HSPC (Hybrid Proposed),2,99,4.96,High-Density Urban / Young Demographic Mix,0.515,0.037,0.354,1.087
+HSPC (Hybrid Proposed),3,34,1.71,High-Density Urban / Young Demographic Mix,1.334,0.146,0.668,0.464
